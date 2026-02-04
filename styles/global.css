@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* main-colors */
+    --color-red: #E3646E;
+    --color-purple: #BB72E9;
+    --color-blue: #3996DB;
+    --color-green: #82BC4F;
+    --color-yellow: #EABD5F;   
+
+    /* others-colors */
+    --gray-100: #E2E4E9;
+    --gray-200: #C0C4CE;
+    --gray-300: #878EA1;
+    --gray-400: #292C34;
+    --gray-500: #16181D;
+    --gray-600: #0D0E11;
+
+    /* fonts */
+    --font-asap: "Asap", sans-serif;
+    --font-inconsolata: "Inconsolata", monospace;
+    --font-mp: "Maven Pro", sans-serif;
+    --title-lg: 700 56px/120% var(--font-asap);
+    --title-md: 700 24px/120% var(--font-asap);
+    --title-sm: 700 16px/120% var(--font-asap);
+    --subtitle: 400 20px/120% var(--font-inconsolata);
+    --text-md: 400 16px/140% var(--font-mp);
+    --text-sm: 400 14px/140% var(--font-mp);
+}
+
+body{
+    font: var(--text);
+    color: var(--text-color-primary);
+    background-color: var(--gray-400);
+}
+
+h1 {
+    font: inherit;
+}
+
+.flex {
+    display: flex;
+}
+
+.center-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
