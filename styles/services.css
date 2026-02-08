@@ -1,0 +1,23 @@
+#services {
+    background-color: var(--gray-600);
+    height: 480px;
+    padding-top: 88px;
+    padding-bottom: 120px;                  
+}
+
+.grid-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-card-services {
+    width: 280px;
+    height: 155px;
+    background-color: var(--gray-500);
+    border-radius: 12px;
+
+    img {
+        width: 40px;
+        height: 33px;
+    }
+}
