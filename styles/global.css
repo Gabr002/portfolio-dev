@@ -8,7 +8,7 @@
     /* main-colors */
     --color-red: #E3646E;
     --color-purple: #BB72E9;
-    --color-blue: #3996DB;
+    --color-blue: #3996db;
     --color-green: #82BC4F;
     --color-yellow: #EABD5F;   
 
@@ -38,10 +38,6 @@ body{
     background-color: var(--gray-400);
 }
 
-h1 {
-    font: inherit;
-}
-
 .flex {
     display: flex;
 }
@@ -54,4 +50,14 @@ h1 {
 
 .container {
     max-width: 100%;
+}
+
+.align-center {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
 }

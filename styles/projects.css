@@ -2,19 +2,6 @@
     background-color: var(--gray-500);
     height: 917px;
     padding: 72px 120px 144px;
-
-    flex-direction: column;
-    gap: 56px;
-}
-
-.font-span {
-    font: var(--subtitle);
-    color: var(--color-red);
-}
-
-.font-h1 {
-    font: var(--title-md);
-    color: var(--gray-100);
 }
 
 .grid {
@@ -23,7 +10,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
-    gap: 24px;
 }
 
 .project-card {
@@ -35,7 +21,9 @@
     padding-inline: 12px;
     
     flex-direction: column;
-    gap: 20px;
+
+    border: 1px solid transparent;
+    transition: border-color 0.4s;
 
     img {
         width: 306px;
@@ -46,19 +34,6 @@
     }
 }
 
-.text {
-    flex-direction: column;
-    gap: 8px;
-    
-    p {
-        font: var(--text-sm);
-        color: var(--gray-200);
-    }
-
-    span {
-
-        font: var(--title-sm);
-        color: var(--gray-100);
-    }
+.project-card:hover {
+    border-color: var(--gray-300);
 }
-

@@ -1,0 +1,121 @@
+.font-subtitle {
+    font: var(--subtitle);
+}
+
+.gray-100{
+    color: var(--gray-100);
+}
+
+.gray-200{
+    color: var(--gray-200);
+}
+
+.gray-300{
+    color: var(--gray-300);
+}
+
+.gray-400{
+    color: var(--gray-400);
+}
+
+.gray-500{
+    color: var(--gray-500);
+}
+
+.gray-600{
+    color: var(--gray-600);
+}
+
+.color-red {
+    color: var(--color-red);
+}
+
+.color-purple {
+    color: var(--color-purple);
+}
+
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-green {
+    color: var(--color-green);
+}
+
+.color-yellow {
+    color: var(--color-yellow);
+}
+
+.title-lg {
+    font: var(--title-lg);
+}
+
+.title-md {
+    font: var(--title-md);
+    
+}
+
+.title-sm {
+    font: var(--title-sm);
+    
+}
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-b-8 {
+    margin-bottom: 8px;
+}
+
+.flex-dir-row {
+    flex-direction: row;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.g-8 {
+    gap: 8px;
+}
+
+.g-12 {
+    gap: 12px;
+}
+
+.g-16 {
+    gap: 16px;
+}
+
+.g-48 {
+    gap: 48px;
+}
+
+.g-56 {
+    gap: 56px;
+}
+
+.g-24 {
+    gap: 24px;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.p-20 {
+    padding: 20px;
+}
