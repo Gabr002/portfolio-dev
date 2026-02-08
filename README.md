@@ -1,4 +1,4 @@
-k# 💻 Portfólio Pessoal - Rocketseat Explorer
+💻 Portfólio Pessoal - Rocketseat Explorer
 
 Este é o resultado do desafio prático do primeiro módulo da formação Explorer da Rocketseat. O objetivo foi colocar em prática conceitos fundamentais de **HTML** e **CSS**, utilizando técnicas de **Flexbox** e **CSS Grid** para criar um layout moderno e responsivo.
 
